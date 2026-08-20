@@ -1,6 +1,8 @@
 name: RecordRoom
 options:
   bundleIdPrefix: com.recordroom
+  # Xcode 15 cannot read XcodeGen's newer default project format (77).
+  objectVersion: 56
   deploymentTarget:
     iOS: "16.0"
   createIntermediateGroups: true

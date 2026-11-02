@@ -14,6 +14,7 @@ like "oneshot" that Koala stores as the strings "true"/"false".
 Usage:
   build_koala.py picks.json AUDIO_DIR OUT.koala   # real pack from audio files
   build_koala.py --test-tones picks.json OUT.koala # tone per pad, no audio needed
+  build_koala.py --only A C --name "Part 1" ...    # just some pads, for smaller files
 """
 
 import argparse
@@ -199,6 +200,24 @@ def pad_index(bank, pad):
     return BANKS.index(bank) * PADS_PER_BANK + (pad - 1)
 
 
+def select(picks, specs):
+    """Keep only the pads named by specs like "A" (whole bank) or "B1-4".
+
+    Pads keep their bank and position, so the parts of a split pack line up.
+    """
+    keep = {}
+    for spec in specs:
+        bank, span = spec[0].upper(), spec[1:]
+        lo, _, hi = span.partition("-")
+        first = int(lo) if lo else 1
+        last = int(hi) if hi else (first if span else PADS_PER_BANK)
+        keep.setdefault(bank, set()).update(range(first, last + 1))
+    banks = {bank: {**info, "pads": [p for p in info["pads"]
+                                     if p["pad"] in keep.get(bank, ())]}
+             for bank, info in picks["banks"].items()}
+    return {**picks, "banks": banks}
+
+
 def dump(obj):
     return json.dumps(obj, indent="\t").encode()
 
@@ -243,12 +262,19 @@ def main():
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--test-tones", action="store_true",
                         help="put a test tone on every pad instead of real audio")
+    parser.add_argument("--only", nargs="+", metavar="SPEC",
+                        help="only include these pads, e.g. A C B1-4")
+    parser.add_argument("--name", help="song name shown in Koala")
     parser.add_argument("picks", type=Path)
     parser.add_argument("paths", nargs="+", type=Path,
                         help="AUDIO_DIR OUT.koala, or just OUT.koala with --test-tones")
     args = parser.parse_args()
 
     picks = json.loads(args.picks.read_text())
+    if args.only:
+        picks = select(picks, args.only)
+    if args.name:
+        picks = {**picks, "pack": args.name}
     if args.test_tones:
         if len(args.paths) != 1:
             parser.error("--test-tones takes picks.json and OUT.koala")

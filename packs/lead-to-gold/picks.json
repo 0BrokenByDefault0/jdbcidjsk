@@ -1,7 +1,7 @@
 {
   "pack": "Lead to Gold",
   "song_bpm": 90,
-  "note": "Draft picks, not yet approved. Each first download costs 1 Splice credit.",
+  "note": "All 64 downloaded from Splice on 2026-11-02 into audio/ (git-ignored). A swap costs 1 credit the first time.",
   "banks": {
     "A": {
       "name": "Crate Drums",

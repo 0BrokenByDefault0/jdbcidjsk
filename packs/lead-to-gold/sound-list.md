@@ -1,10 +1,16 @@
-# Lead to Gold: sound list (draft)
+# Lead to Gold: sound list
 
 A Koala Sampler pack in the style of The Alchemist: dusty boom bap drums, chopped soul and psych loops, an eerie cinematic mood. It's laid out like Koala's own packs: one producer's sound split into kits, using Koala's full 4 banks × 16 pads.
 
-**Nothing has been downloaded yet.** Each "listen" link opens the sound on Splice so you can preview it. Downloading a sound for the first time costs 1 credit, so a full pack is up to 64 credits.
+**Status: built.** All 64 sounds were downloaded from Splice on 2026-11-02 and built into `build/Lead to Gold.koala` (179 MB, 90 BPM). The audio and the built song are kept out of git because Splice's license doesn't allow redistributing the sounds.
 
-To change something, tell me the bank and pad (e.g. "A3: use the alternate"), or say which pads to drop.
+Each "listen" link opens the sound on Splice. To swap a pad, pick an alternate below. Downloading it costs 1 credit, then the song gets rebuilt.
+
+To rebuild after changing `picks.json`:
+
+```
+python3 packs/tools/build_koala.py packs/lead-to-gold/picks.json packs/lead-to-gold/audio "packs/lead-to-gold/build/Lead to Gold.koala"
+```
 
 ---
 

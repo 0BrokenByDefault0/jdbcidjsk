@@ -1,0 +1,91 @@
+{
+  "pack": "Lead to Gold",
+  "song_bpm": 90,
+  "note": "Draft picks, not yet approved. Each first download costs 1 Splice credit.",
+  "banks": {
+    "A": {
+      "name": "Crate Drums",
+      "pads": [
+        { "pad": 1,  "role": "Kick, thuddy",          "file": "ESM_One_Shot_Boom_Bap_Kick_Drum_17_Grimey_Thud.wav", "uuid": "081a1c01-f246-42df-8bee-965ea1753486" },
+        { "pad": 2,  "role": "Kick, punchy",          "file": "ESM_One_Shot_Boom_Bap_Kick_Drum_12_Boom_Bap_Punchy.wav", "uuid": "419f47dd-7ec8-4727-b987-de5c87e3c3e9" },
+        { "pad": 3,  "role": "Kick, scratchy vinyl",  "file": "ESM_One_Shot_Boom_Bap_Kick_Drum_10_Vintage_Scratchy.wav", "uuid": "c71e4a8d-515e-42d8-8869-e574271cfac5" },
+        { "pad": 4,  "role": "Kick, deep",            "file": "ESM_Iconic_Boom_Bap_Kicks_Thump_10_Underground_Punchy_Deep_Heavy.wav", "uuid": "3383671c-93a3-47c9-854b-dd2fa0a43ebf" },
+        { "pad": 5,  "role": "Snare, cracking",       "file": "ESM_Iconic_Boom_Bap_Snare_Crack_9_Heavy_Old_School_Authentic_Hip_Hop_Classic_80_90.wav", "uuid": "d8abb5e9-d592-4b2c-9d59-a7e20bca70ce" },
+        { "pad": 6,  "role": "Snare, dusty and soft", "file": "OS_DD2_Dusty_Snare.wav", "uuid": "f9f0be2e-3d2e-4779-aec2-b889aa1d1c7d" },
+        { "pad": 7,  "role": "Snare, fat",            "file": "SNS_TD_snare_real_fat.wav", "uuid": "ff06021c-e26c-49b1-aabd-b2d635f17ca3" },
+        { "pad": 8,  "role": "Snare, roomy",          "file": "TS_BBD_snare_bigger_room.wav", "uuid": "40872cd2-8c52-486a-95e3-a8b6c90d2321" },
+        { "pad": 9,  "role": "Rimshot",               "file": "SO_NYC_snare_rimshot_drywall.wav", "uuid": "6d0d7a26-2f49-4724-9aa3-f830846ecb57" },
+        { "pad": 10, "role": "Rimshot",               "file": "_X10_GBB_rimshot_icecream.wav", "uuid": "61f2a588-cf1b-44b7-a829-d6b836f6ae88" },
+        { "pad": 11, "role": "Closed hat",            "file": "ROW_hat_closed_tape_vinyl_dusty.wav", "uuid": "26854ec0-8f06-4bca-a244-680404260b46" },
+        { "pad": 12, "role": "Closed hat",            "file": "SM43_vth_vtt_hh_clsd_easy.wav", "uuid": "4991a5e6-eb87-47ad-bead-8aa0a13234ed" },
+        { "pad": 13, "role": "Open hat",              "file": "ROW_hat_open_tape_vinyl_loose.wav", "uuid": "7c91dbe3-8938-46da-9e8e-d93a7eb59341" },
+        { "pad": 14, "role": "Ride",                  "file": "SC_HHD_ride_hit_dark.wav", "uuid": "e49f6b67-3f87-41a2-9b9e-7a15f8348c27" },
+        { "pad": 15, "role": "Tambourine",            "file": "SO_VS_tambourine_lovin_motown_lofi.wav", "uuid": "525de9e6-5a36-4951-a90a-425cdc20f9b6" },
+        { "pad": 16, "role": "Bongo",                 "file": "TVD_bongo_tape_vinyl_smack.wav", "uuid": "94dcfab8-99ca-4f8c-b1c2-197b0978e42d" }
+      ]
+    },
+    "B": {
+      "name": "Dust Loops",
+      "pads": [
+        { "pad": 1,  "role": "Fuzzy psych guitar",      "file": "SO_DI_90_guitar_electric_lead_gauze_fuzz_vibe_Emin.wav", "bpm": 90, "key": "E minor", "uuid": "80f3228d-f842-4b3a-a004-4a620b051087" },
+        { "pad": 2,  "role": "Eerie clean guitar",      "file": "SO_DG_90_guitar_texture_shadows_pitched_bass_low_Dmin.wav", "bpm": 90, "key": "D minor", "uuid": "a25c5825-7ffc-426e-9bd0-d9e6bf20c711" },
+        { "pad": 3,  "role": "Cinematic strings",       "file": "PSoul_MusicLoop_90_Am_Cinematic_Strings.wav", "bpm": 90, "key": "A minor", "uuid": "99dcd44d-c2a5-4ace-9c36-ae7719443312" },
+        { "pad": 4,  "role": "Tremolo strings",         "file": "PSoul_MusicLoop_90_Dm_Tremolanto_Strings.wav", "bpm": 90, "key": "D minor", "uuid": "d97a3873-ebe2-41fb-ac5e-f64d7b536ff1" },
+        { "pad": 5,  "role": "Gospel organ (tape)",     "file": "SC_RFK_90_vintage_tape_sampler_organ_riff_polyphonic_gospel_Dmin.wav", "bpm": 90, "key": "D minor", "uuid": "c16585c6-c489-4b77-a3d4-bac9e68e12a7" },
+        { "pad": 6,  "role": "Rhodes chords",           "file": "SO_NYC_90_electric_piano_melody_chords_tompkins_chords_Dmin.wav", "bpm": 90, "key": "D minor", "uuid": "289cb6b7-9eb7-40f5-8369-882128e7b713" },
+        { "pad": 7,  "role": "Upright piano",           "file": "CSV_90_upright_piano_dont_you_try_Em.wav", "bpm": 90, "key": "E minor", "uuid": "e34aee0e-afd9-4656-af4d-23fe88303109" },
+        { "pad": 8,  "role": "Harpsichord",             "file": "SOULSURPLUS_foundfootage_melodic_loop_05_harpsichord_chords_arpeggio_85_bpm_Emin.wav", "bpm": 85, "key": "E minor", "uuid": "248eddb5-b5e7-4707-a0ea-da65afcd4d2d" },
+        { "pad": 9,  "role": "Flute (with guitar)",     "file": "SC_RFK_94_vintage_tape_sampler_guitar_flute_riff_counterpoint_Amin.wav", "bpm": 94, "key": "A minor", "uuid": "7d1d6c41-56e3-484f-83c1-57edb5f66acb" },
+        { "pad": 10, "role": "Soul choir",              "file": "SOULSURPLUS_hiddengems_melodic_loop_11_choir_vocals_85_bpm_Dmin.wav", "bpm": 85, "key": "D minor", "uuid": "06f9a764-4595-46e6-a8af-dd6b9692c4cb" },
+        { "pad": 11, "role": "Vintage soul horns",      "file": "OSS_IS2_85_horns_vintage_soul_my_baby_Emin.wav", "bpm": 85, "key": "E minor", "uuid": "2a9d8430-6d42-4ece-b0a3-f355284ddbde" },
+        { "pad": 12, "role": "70s bass guitar",         "file": "TCB_90_Dm_Bass_Guitar_Loop_02.wav", "bpm": 90, "key": "D minor", "uuid": "a3a85b20-8c81-4bc7-a07a-1d7ea00f3228" },
+        { "pad": 13, "role": "Crushed break",           "file": "SOULSURPLUS_crimsonsoul_melodic_loop_1_drums_break_crushed_90_bpm.1.wav", "bpm": 90, "uuid": "c98e83e2-dc91-464b-a5c3-dbe52c2ff7ed" },
+        { "pad": 14, "role": "Soul break",              "file": "SOULSURPLUS_chocolatewater_melodic_loop_9_drums_break_soul_slammed_90_bpm.1.wav", "bpm": 90, "uuid": "2735fe59-e449-42f9-b52c-c2b9bf097d00" },
+        { "pad": 15, "role": "Congas + tambourine",     "file": "RARE_RFP2_88_Conga_tambourine_Loop_fire.wav", "bpm": 88, "uuid": "f3e8534c-6fde-482c-b468-c9543ad0bcda" },
+        { "pad": 16, "role": "Crate loop for chopping", "file": "MADLIB_87_music_loop_crates_Bmin.wav", "bpm": 87, "key": "B minor", "uuid": "5e0cc3c9-2b06-48a0-a2cc-edeb1f772012" }
+      ]
+    },
+    "C": {
+      "name": "Stabs & Chops",
+      "pads": [
+        { "pad": 1,  "role": "Chord stab",            "file": "dhh_chst_bless_Dm.wav", "key": "D minor", "uuid": "8fc61b6d-1466-4846-a6f9-c085f1a91433" },
+        { "pad": 2,  "role": "Chord stab",            "file": "dhh_chst_skank_Dm.wav", "key": "D minor", "uuid": "62a138a8-2711-4aa1-8721-4c0f14a95e60" },
+        { "pad": 3,  "role": "Chord stab",            "file": "dhh_chst_sullen_A.wav", "key": "A", "uuid": "7c258f19-a272-4f32-99be-8a8b8fe6b929" },
+        { "pad": 4,  "role": "Chord stab",            "file": "dhh_chst_source_C#m.wav", "key": "C# minor", "uuid": "b1748fe6-57f9-43e5-852a-005f0505837d" },
+        { "pad": 5,  "role": "Horn stab",             "file": "SO_BH_horn_stack_chord_stab_watermelon_Dmin.wav", "key": "D minor", "uuid": "f1b9e73a-58cd-40c1-89e3-1c6298b55dc8" },
+        { "pad": 6,  "role": "Horn stab",             "file": "SO_BH_horn_stack_chord_stab_sepia_min7_Amin.wav", "key": "A minor", "uuid": "03d4b31f-f5d5-4b1c-a27e-3e6e7f12a270" },
+        { "pad": 7,  "role": "70s string stab",       "file": "CSV_melodic_stab_is_this_love_Dm.wav", "key": "D minor", "uuid": "4025f741-4287-46f4-9838-5a1c0964a7b0" },
+        { "pad": 8,  "role": "Eerie orchestral hit",  "file": "PL_CHH_Music_One_Shot_Horror_Stab_E.wav", "key": "E", "uuid": "bb3f1b52-4793-4029-8166-cd26726a74f4" },
+        { "pad": 9,  "role": "Piano chord",           "file": "dc_melodic_one_shot_piano_soul_Em.wav", "key": "E minor", "uuid": "077cf616-c914-4a11-9477-21d9f5aa2358" },
+        { "pad": 10, "role": "Rhodes chord",          "file": "SOULSURPLUS_writersroom_one_shot_vintage_electric_piano_electric_piano_chord_rnb_C#min.wav", "key": "C# minor", "uuid": "ee9f6004-9068-4f39-93bf-5266d3e6f73f" },
+        { "pad": 11, "role": "Pipe organ chord",      "file": "SOUNDDOCTRINE_cathedrals_tis_one_shot_organ_pipe_chord_Amin.wav", "key": "A minor", "uuid": "66456eb7-5253-4d4d-bff1-b9d646a69e59" },
+        { "pad": 12, "role": "Soul vocal chop",       "file": "CSV_vocal_soul_adlib_Em.wav", "key": "E minor", "uuid": "cc074e07-ae97-4de1-b6a3-8335aa928d0a" },
+        { "pad": 13, "role": "Choir hit",             "file": "SOULSURPLUS_luminous_one_shot_01_choir_chords_boys_Dmin9.wav", "key": "D minor", "uuid": "aa5b6ed0-c629-4966-97e3-81b70dd4a631" },
+        { "pad": 14, "role": "Fuzz bass note",        "file": "OS_GHI_electric_bass_guitar_fuzz_C.wav", "key": "C", "uuid": "6da69082-0b23-4819-9578-801bd5ca58cf" },
+        { "pad": 15, "role": "Guitar chord stab",     "file": "SO_GO_guitar_electric_chord_stab_Dmin.wav", "key": "D minor", "uuid": "8016bf63-19bf-4840-920d-b30abfc29dbb" },
+        { "pad": 16, "role": "Soft woodwind",         "file": "OS_VTS_C_Soft_Woodwind.wav", "key": "C", "uuid": "190f3962-052d-4d64-b020-c38c055f1267" }
+      ]
+    },
+    "D": {
+      "name": "Potions",
+      "pads": [
+        { "pad": 1,  "role": "Vinyl crackle bed",  "file": "STCR2_JLH_Kit3_Vinyl_Crackle_91.wav", "bpm": 91, "uuid": "02bb4589-93b3-42dc-87ac-b954b47e424d" },
+        { "pad": 2,  "role": "Tape hiss bed",      "file": "dhh2_fx_loop_tape_90.wav", "bpm": 90, "uuid": "460ab94b-5ec5-4db7-98a0-53ebe294bde6" },
+        { "pad": 3,  "role": "Reversed cymbal",    "file": "PL_NI_Reverse_Cymbal_One_Shot_Transatlantic.wav", "uuid": "ab0fe267-77c2-4e92-97be-afe5f49d013f" },
+        { "pad": 4,  "role": "Reverse swell, dark","file": "JP_CHH_drum_oneshot_reverse_cymbal_dark_scary.wav", "uuid": "95ae17a2-f2db-4103-b144-d65e5569085a" },
+        { "pad": 5,  "role": "Tape stop",          "file": "BAL_fx_tapestop.wav", "uuid": "39703af8-502b-4a8b-bfb5-0d514e87e939" },
+        { "pad": 6,  "role": "Vinyl rewind",       "file": "ETC_fx_record_rewind.wav", "uuid": "14a0da2a-cea8-4969-95f2-35569cc51c50" },
+        { "pad": 7,  "role": "Record scratch",     "file": "PL_SC_Scratched_One_Shot_AfterDusk.wav", "uuid": "72ebf980-825c-4499-ab47-28f95abf27e3" },
+        { "pad": 8,  "role": "Horn stab",          "file": "SO_TL_horns_taken_stab_chord_Bmin7.wav", "key": "B minor", "uuid": "950e909f-df07-42ce-ad0b-0069b5d82243" },
+        { "pad": 9,  "role": "Eerie string riser", "file": "PL_MD_String_FX_One_Shot_Riser_Reference.wav", "uuid": "f87c2605-95c8-4896-84b2-47b6a0e3223c" },
+        { "pad": 10, "role": "Dark boom",          "file": "Low_Bass_Kick_Thud.wav", "uuid": "0cbf6e47-ac1f-434e-8625-5b2f21186d3b" },
+        { "pad": 11, "role": "Radio tuning",       "file": "OS_VMT_SFX_Old_Radio_Tuning_1.wav", "uuid": "85a2ca8b-af85-40c1-888d-db17dfeeb438" },
+        { "pad": 12, "role": "Old-film texture",   "file": "BRS_Projector_16mm_BellHowell_3.wav", "uuid": "668b5c32-def8-4a37-bb46-27c3acaba055" },
+        { "pad": 13, "role": "Eerie drone",        "file": "shs_eerie_tape_65_texture_industrial_loop_Linger.wav", "bpm": 65, "uuid": "534f0304-9f5c-4889-9494-06b5d3fe4dc7" },
+        { "pad": 14, "role": "Vocal ad-lib",       "file": "SOULSURPLUS_fromscratch_one_shot_vocal_grunt_unh.wav", "uuid": "f97a79b2-f528-4008-b89b-26184fa172de" },
+        { "pad": 15, "role": "Gong",               "file": "BULLYFINGER_gong_hit_sp12.wav", "uuid": "148c8d8f-9417-4714-a7fd-1890bc929609" },
+        { "pad": 16, "role": "Potion bubbles",     "file": "ESM_FG2_FX_actione_shot_interactione_shot_potion_heal_tonal_bubble_swell_03.wav", "uuid": "2817e21e-3d57-483b-a528-fd765bd53571" }
+      ]
+    }
+  }
+}

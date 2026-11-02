@@ -1,0 +1,5 @@
+# Built Koala songs and downloaded Splice audio stay out of git:
+# Splice's license doesn't allow redistributing the sounds.
+packs/*/build/
+packs/*/audio/
+*.koala

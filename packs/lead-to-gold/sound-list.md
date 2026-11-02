@@ -144,7 +144,7 @@ Mostly D minor, A minor and E minor, to match Bank B. C4 and C10 are both C♯ m
 ## After you approve
 
 1. I download the approved sounds from Splice. Each one costs 1 credit the first time; a full pack is 64.
-2. I name every file in pad order, e.g. `A01 Kick Thuddy.wav` and `B05 Gospel Organ D min 90.wav`, so they land on the right pads.
-3. You get it one of two ways:
-   - **Tap-to-open `.koala` file**, like the store packs. This needs a real `.koala` file from you first (export or share any song from Koala), so I can copy its exact layout.
-   - **Four kit folders** (one per bank). In Koala's Samples browser, multi-select a folder's contents and drag them onto the pads. This works without anything from you.
+2. `packs/tools/build_koala.py` converts them to Koala's audio format (48 kHz stereo, 32-bit float) and writes **`Lead to Gold.koala`**: one Koala song with every sound already on its pad, labelled like `A01 Kick, thuddy`, and the tempo set to 90 BPM.
+3. You tap the file (in Files, AirDrop or Messages) and it opens in Koala. In another song, Koala's Samples browser can load the whole pack, one bank or a single sound.
+
+The format was copied from a real Koala 2.0.15 export. A test-tone version (no Splice sounds, no credits) comes first, to confirm Koala opens it before anything is bought.
